@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eef1ef url(/img/920cd2454d87d933833ae246b08a221e.webp) repeat left top;
+    font-family: 'Roboto Slab', Verdana, sans-serif;
+    color: #141416;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.header-wrap {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  position: sticky;
+}
+
+.nav-links {
+  display: inline-flex;
+  gap: 50px;
+  margin-left: 100px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #7e2753;
+}
+.nav-btns {
+  display: flex;
+  gap: 50px;
+}
+
+.login-btn , .signup-btn {
+  padding: 3px 20px;
+  font-size: 20px;
+  color: #7e2753;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: none;
+}
+
+#signup {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+.signup-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.signup-head {
+  color: #7e2753;
+  font-size: 28px;
+  text-shadow: 2px 1px #000;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 50%;
+  align-items: center;
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+
+input {
+  border: none;
+  padding: 10px 30px;
+  border-bottom: 2px solid orange;
+}
+
+.sig-btn {
+  background-color: orange;
+  color: #7e2753;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}

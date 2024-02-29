@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eef1ef url(/img/920cd2454d87d933833ae246b08a221e.webp) repeat left top;
+    font-family: 'Roboto Slab', Verdana, sans-serif;
+    color: #141416;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header-wrap {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  position: sticky;
+}
+
+.nav-links {
+  display: inline-flex;
+  gap: 50px;
+  margin-left: 100px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #7e2753;
+}
+.nav-btns {
+  display: flex;
+  gap: 50px;
+}
+
+.login-btn , .signup-btn {
+  padding: 3px 20px;
+  font-size: 20px;
+  color: #7e2753;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: none;
+}
+
+#signup {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.aboutus-wrap1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 70px;
+}
+
+.box {
+  background-color: #221f1f0c;
+  box-shadow: 2px 5px 50px 3px lightblue;
+  text-align: center;
+  color: #7e2753;
+  width: 70%;
+}
+
+.mission-img {
+  width: 300px;
+  height: auto;
+  margin: 30px 0px;
+}
+
+.about-head {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.box p {
+  font-size: 18px;
+  width: 100%;
+  line-height: 30px;
+  margin: 30px 0px;
+}
